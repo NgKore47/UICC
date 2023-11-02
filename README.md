@@ -1,13 +1,21 @@
 # UICC
-1. To download the [UICC v2.6](https://open-cells.com/index.php/uiccsim-programing/) tar file [click here](https://open-cells.com/d5138782a8739209ec5760865b1e53b0/uicc-v2.6.tgz)
+**Refernce:** [UICC v2.6](https://open-cells.com/index.php/uiccsim-programing/), the official [tar file](https://open-cells.com/d5138782a8739209ec5760865b1e53b0/uicc-v2.6.tgz)
 
+## Build UICC
+Make sure `g++` & `gcc` are already installed.
 
-2. Untar the file using: `tar -xvzf uicc-v2.6.tgz`
-
-
-3. To read sim data:
+Clone this repo: 
 ```bash
-cd /home/ubuntu/uicc-v2.6
+git clone https://github.com/NgKore47/UICC.git
+```
+
+```bash
+cd UICC/uicc-v2.6/
+make
+```
+
+## Read the SIM data:
+```bash
 sudo ./program_uicc
 ```
 
