@@ -22,7 +22,7 @@ sudo ./program_uicc
 
 #### To configure sim for SD-Core:
 ```bash
-sudo ./program_uicc --adm 12345678 --imsi 001010100007494 --isdn 00000001 --acc 0001 --key 5122250214c33e723a5dd523fc145fc0 --opc 981d464c7c52eb6e5036234984ad0bcf -spn "OpenAirInterface" --authenticate
+sudo ./program_uicc --adm 12345678 --imsi 001010100007494 --isdn 00000001 --acc 0001 --key 5122250214c33e723a5dd523fc145fc0 --opc 981d464c7c52eb6e5036234984ad0bcf -spn "SDCore" --authenticate
 ```
 
 #### To configure sim for OAI-Core:
@@ -32,7 +32,12 @@ sudo ./program_uicc --adm 12345678 --imsi 001010000000001 --isdn 00000001 --acc 
 
 #### To configure sim for Free5GC-Core:
 ```bash
-sudo ./program_uicc --adm 12345678 --imsi 001010000000001 --isdn 00000001 --acc 0001 --key 8baf473f2f8fd09487cccbd7097c6862 --opc 8e27b6af0e692e750f32667a3b14605d -spn "OpenAirInterface" --authenticate
+sudo ./program_uicc --adm 12345678 --imsi 001010000000001 --isdn 00000001 --acc 0001 --key 8baf473f2f8fd09487cccbd7097c6862 --opc 8e27b6af0e692e750f32667a3b14605d -spn "Free5GC" --authenticate
+```
+
+#### To configure sim for Coran-Core:
+```bash
+sudo ./program_uicc --adm 12345678 --imsi 001010000000001 --isdn 00000001 --acc 0001 --key 8baf473f2f8fd09487cccbd7097c6862 --opc 8e27b6af0e692e750f32667a3b14605d -spn "CoranLabs" --authenticate
 ```
 
 <br>
