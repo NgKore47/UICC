@@ -37,7 +37,7 @@ sudo ./program_uicc --adm 12345678 --imsi 001010000000001 --isdn 00000001 --acc 
 
 #### To configure sim for Coran-Core:
 ```bash
-sudo ./program_uicc --adm 12345678 --imsi 001010000000001 --isdn 00000001 --acc 0001 --key 8baf473f2f8fd09487cccbd7097c6862 --opc 8e27b6af0e692e750f32667a3b14605d -spn "CoranLabs" --authenticate
+sudo ./program_uicc --adm 12345678 --imsi 001010000000001 --isdn 00000001 --acc 0001 --key f1d01b462b3f094161564b2b4526eb44 --opc 9cad38e91fee27bfb352a532beec7337 -spn "CoranLabs" --authenticate
 ```
 
 <br>
